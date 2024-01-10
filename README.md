@@ -9,9 +9,7 @@ Welcome to ParkDBManager, a robust Oracle-based parking management system.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contribution](#contribution)
 
 ## Introduction
 
@@ -111,4 +109,4 @@ ParkDBManager is a comprehensive solution for managing parking-related activitie
 
 ## Contribution 
 
-- This collaborative project was undertaken by students during an instructional class at UMBC. The contributors to this project include Luke Dyer, Trent Foster, Chiagoziem, and Abubakar.
+This collaborative project was undertaken by students during an instructional class at UMBC. The contributors to this project include Luke Dyer, Trent Foster, Chiagoziem, and Abubakar.
