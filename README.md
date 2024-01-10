@@ -109,6 +109,6 @@ ParkDBManager is a comprehensive solution for managing parking-related activitie
    git clone https://github.com/your-username/ParkDBManager.git
    cd ParkDBManager
 
-### Contribution 
+## Contribution 
 
 - This collaborative project was undertaken by students during an instructional class at UMBC. The contributors to this project include Luke Dyer, Trent Foster, Chiagoziem, and Abubakar.
