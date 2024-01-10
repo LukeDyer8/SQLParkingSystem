@@ -1,0 +1,59 @@
+Customer Table:
+Columns:
+Customer_ID (PK)
+Name
+Address
+Zipcode
+State
+Email
+Phone_Number
+Credit_Card_Number
+
+Vehicle Table:
+Columns:
+Vehicle_ID (PK)
+License_Plate_Number
+State
+Maker
+Model
+Year
+Color
+Customer_ID (FK referencing Customer(Customer_ID))
+
+Parking_Zone Table:
+Columns:
+Zone_ID (PK)
+Address
+Zipcode
+Capacity
+Available_Spots
+Hourly_Rate
+Max_Length
+Start_Day
+Start_Time
+End_Day
+End_Time
+
+Parking_Session Table:
+Columns:
+Session_ID (PK)
+Customer_ID (FK referencing Customer(Customer_ID))
+Vehicle_ID (FK referencing Vehicle(Vehicle_ID))
+Zone_ID (FK referencing Parking_Zone(Zone_ID))
+Start_Time
+End_Time
+Total_Charge
+
+Payment Table:
+Columns:
+Payment_ID (PK)
+Session_ID (FK referencing Parking_Session(Session_ID))
+Payment_Time
+Amount
+
+Message Table:
+Columns:
+Message_ID (PK)
+Customer_ID (FK referencing Customer(Customer_ID))
+Message_Time
+Message_Body
