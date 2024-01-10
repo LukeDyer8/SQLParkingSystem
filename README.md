@@ -64,9 +64,7 @@ Welcome to ParkDBManager, a robust Oracle-based parking management system.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contribution](#contribution)
 
 ## Introduction
 
@@ -110,4 +108,7 @@ ParkDBManager is a comprehensive solution for managing parking-related activitie
    ```bash
    git clone https://github.com/your-username/ParkDBManager.git
    cd ParkDBManager
-Set up your Oracle Database and execute the SQL scripts provided.UsageRun the SQL scripts for feature-specific functionalities.Refer to individual feature directories for detailed usage instructions.ContributingWe welcome contributions! To contribute to ParkDBManager, follow these steps:Fork the repository.Create a new branch (git checkout -b feature/your-feature-name).Make changes and commit (git commit -am 'Add new feature').Push to the branch (git push origin feature/your-feature-name).Create a pull request.
+
+### Contribution 
+
+- This collaborative project was undertaken by students during an instructional class at UMBC. The contributors to this project include Luke Dyer, Trent Foster, Chiagoziem, and Abubakar.
